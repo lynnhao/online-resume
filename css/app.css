@@ -1,0 +1,177 @@
+body {
+	position: relative;
+}
+#contact {
+	display:inline-block; 
+	position: fixed; 
+	padding: 15px; 
+	width: 100%; 
+	background-color:#D24D57; 
+	z-index:1000; 
+	text-align: center;
+	color: white;
+	font-family: Avenir Next Condensed;
+	opacity: 0.82;
+}
+
+#resume{
+	background-color: #6C7A89;
+}
+#wrap-outer{
+	background-color:white;
+	padding-left:3rem;
+	padding-right:2rem;
+	padding-top:7rem;
+	padding-bottom:5rem;
+
+}
+#wrap-inner{
+	margin-bottom:5rem;
+}
+/*TEXT FORMATTING/ORIENTATION*/
+.heading{
+	text-transform: uppercase;
+	font-family: Avenir Next Condensed;
+	font-size: 2rem;
+	text-align: center;
+}
+
+#naming{
+	text-align:center;
+	font-size:3rem;
+	font-family: Alice;
+	letter-spacing: 3px
+}
+
+.title{
+	color: #6C7A89;
+	font-family: Avenir Next Condensed;
+	font-size: 1.7rem;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: -15px;
+	margin-bottom: -15px;
+
+}
+
+.entry {
+	padding-bottom: 3rem;
+}
+
+.content {
+	border-left: 5px #1BBC9B solid;
+	padding-left: 1.5rem;
+}
+
+.section{
+	font-family: Alice;
+	font-size: 2rem;
+	color: #D24D57;
+}
+
+.subsection{
+	font-family: Alice;
+	font-size: 1.5rem;
+	font-style: italic;
+
+}
+
+.list-header {
+	margin-top: 1rem;
+	font-family: Avenir Next Condensed;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+}
+
+hr {
+
+}
+
+ul{
+
+}
+
+li{
+	font-family: Avenir Next;
+}
+
+/*ORIENTATION*/
+.right {
+	float: right;
+}
+
+/*ICON*/
+.icon{
+	float: left;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	margin: 2rem;
+}
+.icon-test{
+	float: left;
+	border-radius: 50%;
+	width: 80px;
+	height: 80px;
+	display: block;
+	margin-left: -40px;
+	margin-top: 0rem;
+  	filter: grayscale(100%);
+  	-webkit-filter: grayscale(100%);
+  	filter: gray;
+  	/*opacity: 0.8;*/
+  	transition: 0.3s ease all;
+  	border: 10px white solid ;
+  	background-color: white;
+  	z-index: 999;
+  	position: absolute;
+}
+
+.icon-test:hover{
+	transition: 0.3s ease all;
+	opacity: 1;  	
+	filter: grayscale(0%);
+  	-webkit-filter: grayscale(0%);
+  	filter: gray;
+
+}
+
+.icon-back{
+	position: relative;
+	display: block;
+	float: left;
+	z-index:0;
+	background-color: white;
+	width: 50px;
+	height: 80px;
+	margin-left: -60px;
+}
+
+/*.icon-overlay {
+	position: absolute;
+	display: block;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	width: 70px;
+	height: 70px;
+	background-color: rgba(0,0,0,0.5);
+	border-radius: 50%;
+	z-index: 999;
+}*/
+
+/*SKILLS*/
+.skillset {
+	margin-left: 2rem;
+	padding-top:1rem;
+}
+
+.skill {
+	border: 1px solid #1BBC9B;
+	padding: 6px 15px;
+	border-radius:8px;
+	font-family: Avenir Next Condensed;
+	font-size: 1.1rem;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
